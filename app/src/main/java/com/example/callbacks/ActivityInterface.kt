@@ -1,6 +1,6 @@
 package com.example.callbacks
 
-interface ActivityToastInterface {
+interface ActivityInterface {
    // fun showToast(text: String)
-    fun click(clicked: Int)
+    fun click(position: Int)
 }
