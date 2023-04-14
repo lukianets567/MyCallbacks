@@ -9,6 +9,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="Morning">#3BCAC5</color>
     <color name="Day">#E3D139</color>
-    <color name="Evening">#A63A06</color>
+    <color name="Evening">#FF5300</color>
     <color name="Night">#04062B</color>
+    <color name="morning_text">#07357C</color>
+    <color name="day_text">#665B02</color>
+    <color name="evening_text">#782700</color>
+    <color name="night_text">#676BD3</color>
+
 </resources>

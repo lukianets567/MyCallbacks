@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView
-    android:id="@+id/cardView"
+    android:id="@+id/cardView1"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,15 +8,14 @@
     android:layout_height="50dp"
     android:layout_margin="10dp"
     app:cardElevation="6dp"
-    app:cardBackgroundColor="@color/Morning">
+    app:cardBackgroundColor="@color/Day">
 
     <LinearLayout
         android:id="@+id/itemLine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="8dp"
-        >
+        android:padding="8dp">
 
         <TextView
             android:id="@+id/textView"
@@ -25,7 +24,7 @@
             android:text=""
             android:gravity="center"
             android:textSize="24sp"
-            android:textColor="@color/morning_text"
+            android:textColor="@color/day_text"
             />
 
         <TextView
@@ -36,8 +35,7 @@
             tools:text="0"
             android:textSize="20sp"
             android:gravity="center"
-            android:textColor="@color/morning_text"
-
+            android:textColor="@color/day_text"
             />
 
     </LinearLayout>
